@@ -2,7 +2,7 @@
 ==
 
 Python's dictionnary data structure for JavaScript. Parent is
-[js-data-structures](https://github.com/aureooms/js-data-structures).
+[js-collections](https://github.com/aureooms/js-collections).
 
 ```js
 dict( ).getdefault( "x" , -2 ) ; // -2
