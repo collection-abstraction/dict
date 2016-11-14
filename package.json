@@ -1,7 +1,7 @@
 {
-  "name": "aureooms-js-collections",
+  "name": "aureooms-js-collections-dict",
   "description": "Collections library for JavaScript",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
     "require": [
@@ -20,18 +20,16 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-collections/issues"
+    "url": "https://github.com/aureooms/js-collections-dict/issues"
   },
   "dependencies": {
-    "aureooms-js-compare": "^1.4.5",
-    "aureooms-js-dll": "^6.0.10",
-    "aureooms-js-itertools": "^3.1.0"
+    "aureooms-js-error": "^3.0.0",
+    "aureooms-js-mapping": "^3.0.0"
   },
   "devDependencies": {
+    "aureooms-js-compare": "^1.4.5",
     "aureooms-js-functools": "^2.0.3",
-    "aureooms-js-number": "^3.0.0",
-    "aureooms-js-operator": "^1.0.2",
-    "aureooms-js-sort": "^7.0.0",
+    "aureooms-js-itertools": "^3.1.0",
     "ava": "^0.16.0",
     "babel-cli": "^6.18.0",
     "babel-polyfill": "^6.16.0",
@@ -41,7 +39,7 @@
     "esdoc": "^0.4.8",
     "nyc": "^8.4.0"
   },
-  "homepage": "http://aureooms.github.io/js-collections/",
+  "homepage": "http://aureooms.github.io/js-collections-dict/",
   "keywords": [
     "bisect",
     "collection",
@@ -59,7 +57,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-collections.git",
+    "url": "https://github.com/aureooms/js-collections-dict.git",
     "type": "git"
   },
   "scripts": {
