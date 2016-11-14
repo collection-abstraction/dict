@@ -1,5 +1,5 @@
-import { KeyError } from '../../error' ;
-import Mapping from '../../mapping' ;
+import { KeyError } from 'aureooms-js-error' ;
+import { fromkeys } from 'aureooms-js-mapping' ;
 
 export default function _Dict ( Map ) {
 
@@ -83,7 +83,7 @@ export default function _Dict ( Map ) {
 
 	Dict.fromkeys = function ( seq , value = null ) {
 
-		return new Dict( Mapping.fromkeys( seq , value ) ) ;
+		return new Dict( fromkeys( seq , value ) ) ;
 
 	} ;
 
