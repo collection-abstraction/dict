@@ -133,4 +133,9 @@ test( dict.name , t => {
 
 	t.deepEqual( dict.fromkeys( "abc" ).get( "b" ) , null , "fromkeys default null" ) ;
 
+	t.true( dict.fromkeys('abc').isequal( dict.fromkeys('abc')) , 'isequal 1' ) ;
+	t.false( dict.fromkeys('abc').isequal( dict.fromkeys('abcd')) , 'isequal 2' ) ;
+	t.false( dict.fromkeys('abc').isequal( dict.fromkeys('abd')) , 'isequal 3' ) ;
+	t.false( dict.fromkeys('abc',1).isequal( dict.fromkeys('abc',2)) , 'isequal 3' ) ;
+
 } ) ;
