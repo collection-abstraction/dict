@@ -8,7 +8,7 @@ Python's dictionnary data structure for JavaScript. Parent is
 dict( ).getdefault( "x" , -2 ) ; // -2
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-collections-dict.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-collections-dict/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-collections-dict.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-collections-dict/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-collections-dict.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-collections-dict)
 [![Build Status](https://img.shields.io/travis/aureooms/js-collections-dict.svg?style=flat)](https://travis-ci.org/aureooms/js-collections-dict)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-collections-dict.svg?style=flat)](https://coveralls.io/r/aureooms/js-collections-dict)
