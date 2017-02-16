@@ -1,5 +1,5 @@
-import { KeyError } from 'aureooms-js-error' ;
-import { fromkeys } from 'aureooms-js-mapping' ;
+import { KeyError } from '@aureooms/js-error' ;
+import { fromkeys } from '@aureooms/js-mapping' ;
 
 export default function _Dict ( Map ) {
 
