@@ -1,6 +1,6 @@
 {
   "coverage": "0%",
-  "expectCount": 2,
+  "expectCount": 4,
   "actualCount": 0,
   "files": {
     "src/_Dict.js": {
@@ -15,6 +15,14 @@
       "actualCount": 0,
       "undocumentLines": [
         2
+      ]
+    },
+    "src/index.js": {
+      "expectCount": 2,
+      "actualCount": 0,
+      "undocumentLines": [
+        5,
+        4
       ]
     }
   }

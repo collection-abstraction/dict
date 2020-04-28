@@ -2,14 +2,14 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl" href="../">
-  <title data-ice="title">Manual | @aureooms/js-collections-dict</title>
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/index.js | @aureooms/js-collections-dict</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
   <script src="script/manual.js"></script>
 <link rel="stylesheet" href="./inject/css/0-style.css"><script src="./inject/script/0-header.js"></script><meta name="description" content="Collections library for JavaScript"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="@aureooms/js-collections-dict"><meta property="twitter:description" content="Collections library for JavaScript"></head>
-<body class="layout-container manual-root" data-ice="rootContainer">
+<body class="layout-container" data-ice="rootContainer">
 
 <header>
   <a href="./">Home</a>
@@ -26,42 +26,34 @@
   </div>
 <a style="position:relative; top:3px;" href="https://github.com/aureooms/js-collections-dict.git"><img width="20px" src="./image/github.png"></a></header>
 
-<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
-  
-<div data-ice="manual">
-    <ul class="manual-toc">
-      
-    <li data-ice="manualNav" class="indent-h1" data-link="manual/overview.html"><a href="manual/overview.html" data-ice="link">Overview</a></li>
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_Dict">_Dict</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-function">F</span><span data-ice="name"><span><a href="function/index.html#static-function-_dict">_dict</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-Dict">Dict</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-dict">dict</a></span></span></li>
 </ul>
-  </div>
-<div data-ice="manual">
-    <ul class="manual-toc">
-      
-    <li data-ice="manualNav" class="indent-h1" data-link="manual/installation.html"><a href="manual/installation.html" data-ice="link">Installation</a></li>
-<li data-ice="manualNav" class="indent-h3" data-link="manual/installation.html"><a href="manual/installation.html#jspm" data-ice="link">jspm</a></li>
-<li data-ice="manualNav" class="indent-h3" data-link="manual/installation.html"><a href="manual/installation.html#npm" data-ice="link">npm</a></li>
-</ul>
-  </div>
-<div data-ice="manual">
-    <ul class="manual-toc">
-      
-    <li data-ice="manualNav" class="indent-h1" data-link="manual/usage.html"><a href="manual/usage.html" data-ice="link">Usage</a></li>
-</ul>
-  </div>
-<div data-ice="manual">
-    <ul class="manual-toc">
-      
-    <li data-ice="manualNav" class="indent-h1" data-link="manual/example.html"><a href="manual/example.html" data-ice="link">Examples</a></li>
-</ul>
-  </div>
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div class="github-markdown" data-ice="content"><h1 id="examples">Examples</h1><p>See Python&apos;s docs:</p>
-<ul>
-<li><a href="https://docs.python.org/3/library/stdtypes.html#mapping-types-dict">dict</a></li>
-</ul>
-</div>
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import _Dict from &apos;./_Dict&apos; ;
+import _dict from &apos;./_dict&apos; ;
+
+const Dict = _Dict( Map ) ; // use native Map implementation
+const dict = _dict( Dict ) ;
+
+export default dict ;
+
+export {
+	dict ,
+	Dict ,
+	_dict ,
+	_Dict ,
+} ;
+</code></pre>
+
 </div>
 
 <footer class="footer">
