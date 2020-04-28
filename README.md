@@ -1,8 +1,8 @@
-[js-collections-dict](http://aureooms.github.io/js-collections-dict)
+[@aureooms/js-collections-dict](https://aureooms.github.io/js-collections-dict)
 ==
 
 Python's dictionnary data structure for JavaScript. Parent is
-[js-collections](https://github.com/aureooms/js-collections).
+[@aureooms/js-collections](https://github.com/aureooms/js-collections).
 
 ```js
 dict( ).getdefault( "x" , -2 ) ; // -2
