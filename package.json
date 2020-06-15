@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@aureooms/js-error": "^4.0.0",
-    "@aureooms/js-mapping": "^3.1.0"
+    "@aureooms/js-mapping": "^4.0.0"
   },
   "devDependencies": {
     "@aureooms/js-compare": "1.4.5",
