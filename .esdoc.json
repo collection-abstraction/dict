@@ -13,7 +13,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-collections-dict"
+          "title": "@collection-abstraction/dict"
         },
         "test": {
           "type": "ava",

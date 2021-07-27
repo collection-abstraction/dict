@@ -1,11 +1,12 @@
 import test from 'ava' ;
 
-import { increasing , lexicographical } from "@aureooms/js-compare" ;
+import { increasing } from "@total-order/primitive" ;
+import { lexicographical } from "@total-order/lex" ;
 const lex = lexicographical( increasing ) ;
 
-import { sorted } from "@aureooms/js-itertools" ;
-import { partial , rpartial } from "@aureooms/js-functools" ;
-import { KeyError } from '@aureooms/js-error' ;
+import { sorted } from "@iterable-iterator/sorted" ;
+import { partial , rpartial } from "@functional-abstraction/functools" ;
+import { KeyError } from '@failure-abstraction/error' ;
 
 import dict from '../../src' ;
 

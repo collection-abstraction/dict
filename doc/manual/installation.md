@@ -5,10 +5,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-collections-dict
+jspm install npm:@collection-abstraction/dict
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-collections-dict --save
+npm install @collection-abstraction/dict --save
 ```

@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-collections-dict",
+  "name": "@collection-abstraction/dict",
   "description": "Collections library for JavaScript",
   "version": "4.0.0",
-  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "require": [
       "@babel/polyfill",
@@ -24,21 +24,22 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-collections-dict/issues"
+    "url": "https://github.com/collection-abstraction/dict/issues"
   },
   "dependencies": {
-    "@aureooms/js-error": "^5.0.0",
-    "@aureooms/js-mapping": "^5.0.0"
+    "@failure-abstraction/error": "^6.0.1",
+    "@iterable-iterator/mapping": "^8.0.0"
   },
   "devDependencies": {
-    "@aureooms/js-compare": "1.4.8",
-    "@aureooms/js-functools": "2.0.3",
-    "@aureooms/js-itertools": "5.0.1",
     "@babel/cli": "7.13.10",
     "@babel/core": "7.13.10",
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.13.10",
     "@babel/register": "7.13.8",
+    "@functional-abstraction/functools": "^3.0.2",
+    "@iterable-iterator/sorted": "^1.0.0",
+    "@total-order/lex": "^1.0.0",
+    "@total-order/primitive": "^1.0.1",
     "ava": "3.15.0",
     "coveralls": "3.1.0",
     "esdoc": "1.1.0",
@@ -51,7 +52,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "http://make-github-pseudonymous-again.github.io/js-collections-dict/",
+  "homepage": "http://collection-abstraction.github.io/dict",
   "keywords": [
     "bisect",
     "collection",
@@ -69,7 +70,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-collections-dict.git",
+    "url": "https://github.com/collection-abstraction/dict.git",
     "type": "git"
   },
   "scripts": {
