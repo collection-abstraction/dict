@@ -2,29 +2,43 @@
   "name": "@collection-abstraction/dict",
   "description": "Python's dictionary data structure for JavaScript",
   "version": "4.0.0",
+  "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
-  "ava": {
-    "require": [
-      "@babel/polyfill",
-      "@babel/register"
-    ],
-    "files": [
-      "test/src/**/*"
-    ],
-    "timeout": "1m"
-  },
-  "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "env": {
-      "development": {
-        "sourceMaps": "inline"
-      }
-    }
+  "homepage": "https://collection-abstraction.github.io/dict",
+  "repository": {
+    "url": "https://github.com/collection-abstraction/dict",
+    "type": "git"
   },
   "bugs": {
     "url": "https://github.com/collection-abstraction/dict/issues"
+  },
+  "keywords": [
+    "bisect",
+    "collection",
+    "collections",
+    "count",
+    "counter",
+    "dict",
+    "hash",
+    "heapq",
+    "javascript",
+    "js",
+    "list",
+    "map"
+  ],
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf lib && babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "esdoc": "esdoc",
+    "lint-config": "fixpack --dryRun",
+    "lint-config-and-fix": "fixpack || fixpack",
+    "prepare": "npm run build",
+    "release": "np",
+    "test": "ava"
   },
   "dependencies": {
     "@failure-abstraction/error": "^6.0.1",
@@ -46,42 +60,28 @@
     "esdoc-inject-script-plugin": "1.0.0",
     "esdoc-inject-style-plugin": "1.0.0",
     "esdoc-standard-plugin": "1.0.0",
+    "fixpack": "4.0.0",
     "np": "7.4.0",
-    "nyc": "15.1.0",
-    "fixpack": "4.0.0"
+    "nyc": "15.1.0"
   },
-  "files": [
-    "lib"
-  ],
-  "homepage": "https://collection-abstraction.github.io/dict",
-  "keywords": [
-    "bisect",
-    "collection",
-    "collections",
-    "count",
-    "counter",
-    "dict",
-    "hash",
-    "heapq",
-    "javascript",
-    "js",
-    "list",
-    "map"
-  ],
-  "license": "AGPL-3.0",
-  "main": "lib/index.js",
-  "repository": {
-    "url": "https://github.com/collection-abstraction/dict",
-    "type": "git"
+  "ava": {
+    "require": [
+      "@babel/polyfill",
+      "@babel/register"
+    ],
+    "files": [
+      "test/src/**/*"
+    ],
+    "timeout": "1m"
   },
-  "scripts": {
-    "build": "rm -rf lib && babel src -d lib",
-    "cover": "nyc --reporter=lcov npm test",
-    "esdoc": "esdoc",
-    "prepare": "npm run build",
-    "release": "np",
-    "test": "ava",
-    "lint-config-and-fix": "fixpack || fixpack",
-    "lint-config": "fixpack --dryRun"
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
   }
 }
