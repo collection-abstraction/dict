@@ -103,6 +103,7 @@
       ]
     ],
     "env": {
+      "cover": {},
       "development": {
         "sourceMaps": "inline"
       }
