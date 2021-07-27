@@ -66,14 +66,13 @@
   },
   "dependencies": {
     "@failure-abstraction/error": "^6.0.1",
-    "@iterable-iterator/mapping": "^8.0.0"
+    "@iterable-iterator/mapping": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.13.10",
     "@babel/preset-env": "7.13.10",
     "@babel/register": "7.13.8",
     "@commitlint/cli": "13.1.0",
-    "@functional-abstraction/functools": "^3.0.2",
     "@iterable-iterator/sorted": "^1.0.0",
     "@js-library/commitlint-config": "0.0.4",
     "@total-order/lex": "^1.0.0",

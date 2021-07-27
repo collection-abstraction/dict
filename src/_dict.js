@@ -1,14 +1,9 @@
+export default function _dict(Dict) {
+	const dict = function (mapping = null) {
+		return new Dict(mapping);
+	};
 
-export default function _dict ( Dict ) {
+	dict.fromkeys = Dict.fromkeys;
 
-	const dict = function ( mapping = null ) {
-
-		return new Dict( mapping ) ;
-
-	} ;
-
-	dict.fromkeys = Dict.fromkeys ;
-
-	return dict ;
-
+	return dict;
 }

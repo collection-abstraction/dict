@@ -2075,11 +2075,6 @@
   resolved "https://registry.yarnpkg.com/@failure-abstraction/error/-/error-6.0.1.tgz#ab6929395c7ed3ec74d86db2976e74e31f9569e2"
   integrity sha512-KvIHhvwfrgbUduQbk55WRDGL2XcXjDLwleId+pSnK7mUUIY7zMGMy3N+ouDcOFymme48tKDlarKsYj5mEEd3fg==
 
-"@functional-abstraction/functools@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@functional-abstraction/functools/-/functools-3.0.2.tgz#19c51ebb30b1e699ef9f30d2dcdbe1f11b1c9852"
-  integrity sha512-CL5aTFWBa+zoiwLFePQhvSJr/aX2nEG69dqAp7Zf3D2I/DGHE+KNe31DNJdNCZtJJPthsVg17qyMXldabre2Lw==
-
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.5.0.tgz#1407967d4c6eecd7388f83acf1eaf4d0c6e58ef9"
@@ -2104,10 +2099,10 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/list/-/list-1.0.1.tgz#e84fd841d7d58c2ad6d0c026f0612c8228dc97f5"
   integrity sha512-234a2cf0a0YhD1Ofb3F0xSjXDkqDK1xCiLnXoMUt/DWAt/odAvJToaxEFMemiKlAUvqF6E8MSi2v2UvlIOpBUA==
 
-"@iterable-iterator/mapping@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@iterable-iterator/mapping/-/mapping-8.0.0.tgz#e2b2ebf693a20f47ca78bd803e77c6ab4511de77"
-  integrity sha512-pm8PyACa4247cFcc7dNFe7XdTngdNPdiC3PhHHXV7/sMQVWERzgE+U5Mw3qknxv8UNWD5jZ9ZOhfzJV5uHIFOQ==
+"@iterable-iterator/mapping@^9.0.0":
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/@iterable-iterator/mapping/-/mapping-9.0.0.tgz#59d27cd46c5ac58ecb722b1d301286724397520b"
+  integrity sha512-34m1kTtJIKuJ/NUryH3tp7emhwfvOEaxOaVap604XqZA4/2u3eooSdLs6XWxgikXhwoD7W/UKjmoypvoF3iIYg==
 
 "@iterable-iterator/sorted@^1.0.0":
   version "1.0.0"
