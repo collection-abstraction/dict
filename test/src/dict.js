@@ -6,7 +6,7 @@ import {lexicographical} from '@total-order/lex';
 import {sorted} from '@iterable-iterator/sorted';
 import {KeyError} from '@failure-abstraction/error';
 
-import dict from '../../src/index.js';
+import {dict} from '../../src/index.js';
 
 const lex = lexicographical(increasing);
 
