@@ -1,26 +1,26 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-collections-dict/src/index.js~dict",
+    "@collection-abstraction/dict/src/index.js~dict",
     "variable/index.html#static-variable-Dict",
-    "<span>Dict</span> <span class=\"search-result-import-path\">@aureooms/js-collections-dict/src/index.js</span>",
+    "<span>Dict</span> <span class=\"search-result-import-path\">@collection-abstraction/dict/src/index.js</span>",
     "variable"
   ],
   [
-    "@aureooms/js-collections-dict/src/_dict.js~_dict",
+    "@collection-abstraction/dict/src/_dict.js~_dict",
     "function/index.html#static-function-_Dict",
-    "<span>_Dict</span> <span class=\"search-result-import-path\">@aureooms/js-collections-dict/src/_Dict.js</span>",
+    "<span>_Dict</span> <span class=\"search-result-import-path\">@collection-abstraction/dict/src/_Dict.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-collections-dict/src/_dict.js~_dict",
+    "@collection-abstraction/dict/src/_dict.js~_dict",
     "function/index.html#static-function-_dict",
-    "<span>_dict</span> <span class=\"search-result-import-path\">@aureooms/js-collections-dict/src/_dict.js</span>",
+    "<span>_dict</span> <span class=\"search-result-import-path\">@collection-abstraction/dict/src/_dict.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-collections-dict/src/index.js~dict",
+    "@collection-abstraction/dict/src/index.js~dict",
     "variable/index.html#static-variable-dict",
-    "<span>dict</span> <span class=\"search-result-import-path\">@aureooms/js-collections-dict/src/index.js</span>",
+    "<span>dict</span> <span class=\"search-result-import-path\">@collection-abstraction/dict/src/index.js</span>",
     "variable"
   ],
   [
