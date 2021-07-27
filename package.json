@@ -1,6 +1,6 @@
 {
   "name": "@collection-abstraction/dict",
-  "description": "Collections library for JavaScript",
+  "description": "Python's dictionary data structure for JavaScript",
   "version": "4.0.0",
   "author": "make-github-pseudonymous-again",
   "ava": {
