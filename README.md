@@ -1,11 +1,12 @@
-[@collection-abstraction/dict](https://collection-abstraction.github.io/dict)
+:book: [@collection-abstraction/dict](https://collection-abstraction.github.io/dict)
 ==
 
 Python's dictionary data structure for JavaScript. Parent is
 [js-collections](https://github.com/make-github-pseudonymous-again/js-collections).
 
 ```js
-dict( ).getdefault( "x" , -2 ) ; // -2
+import {dict} from '@collection-abstraction/dict';
+dict().getdefault('x', -2); // -2
 ```
 
 [![License](https://img.shields.io/github/license/collection-abstraction/dict.svg)](https://raw.githubusercontent.com/collection-abstraction/dict/main/LICENSE)
