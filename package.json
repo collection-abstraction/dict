@@ -71,7 +71,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/collection-abstraction/dict.git",
+    "url": "https://github.com/collection-abstraction/dict",
     "type": "git"
   },
   "scripts": {
