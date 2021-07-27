@@ -127,6 +127,7 @@
           "babel-preset-power-assert"
         ]
       },
+      "test": {},
       "cover": {
         "sourceMaps": "both",
         "presets": [
