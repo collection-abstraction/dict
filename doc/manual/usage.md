@@ -2,14 +2,14 @@
 The code needs a ES2015+ polyfill to work, for example
 [regenerator-runtime/runtime](https://babeljs.io/docs/usage/polyfill).
 ```js
-require( 'regenerator-runtime/runtime' ) ;
+await import( 'regenerator-runtime/runtime.js' ) ;
 // or
 import 'regenerator-runtime/runtime.js' ;
 ```
 
 Then
 ```js
-const number = require( '@collection-abstraction/dict' ) ;
+const number = await import( '@collection-abstraction/dict' ) ;
 // or
 import number from '@collection-abstraction/dict' ;
 ```
