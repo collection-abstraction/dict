@@ -2104,7 +2104,7 @@
   resolved "https://registry.yarnpkg.com/@iterable-iterator/mapping/-/mapping-9.0.0.tgz#59d27cd46c5ac58ecb722b1d301286724397520b"
   integrity sha512-34m1kTtJIKuJ/NUryH3tp7emhwfvOEaxOaVap604XqZA4/2u3eooSdLs6XWxgikXhwoD7W/UKjmoypvoF3iIYg==
 
-"@iterable-iterator/sorted@^1.0.0":
+"@iterable-iterator/sorted@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@iterable-iterator/sorted/-/sorted-1.0.0.tgz#d1b93cb1bb50fe6af2851b4505d2ee2df0d406dc"
   integrity sha512-raMmDjKLp25F51NGnnq3fK4lvkaHZdzB5Pt9AiMKoZKgU8gX0yM+FrdKzMG+RZswtVxre+nrR3Z6E1oGESRfzg==
@@ -2236,12 +2236,12 @@
   dependencies:
     defer-to-connect "^2.0.0"
 
-"@total-order/lex@^1.0.0":
+"@total-order/lex@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@total-order/lex/-/lex-1.0.0.tgz#6ecbf85442c1892d008b2415c8ea0ba57e757948"
   integrity sha512-D4KM/U13QXdPNJDSW67Ux9dqCr9jUTK4APYtBYrL9cveIv14ewx6SMgsrJS/bgHm0/F6T4lgq3oNkKsYxDZYAQ==
 
-"@total-order/primitive@^1.0.1":
+"@total-order/primitive@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@total-order/primitive/-/primitive-1.0.1.tgz#7e409d303a2a3b24ed2af30bd9068027d6a4a326"
   integrity sha512-BXCXyXoQIpdwFkplPRTuxFB0I1GHHia4t22bLAEqjdk48DFwQMwSbHq1EdLA81X/eFC/b6RdVxG4Q+WEcfs0aA==
