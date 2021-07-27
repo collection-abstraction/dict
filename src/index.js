@@ -1,5 +1,5 @@
-import _Dict from './_Dict' ;
-import _dict from './_dict' ;
+import _Dict from './_Dict.js' ;
+import _dict from './_dict.js' ;
 
 const Dict = _Dict( Map ) ; // use native Map implementation
 const dict = _dict( Dict ) ;

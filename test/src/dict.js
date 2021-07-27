@@ -8,7 +8,7 @@ import { sorted } from "@iterable-iterator/sorted" ;
 import { partial , rpartial } from "@functional-abstraction/functools" ;
 import { KeyError } from '@failure-abstraction/error' ;
 
-import dict from '../../src' ;
+import dict from '../../src/index.js' ;
 
 test( dict.name , t => {
 
