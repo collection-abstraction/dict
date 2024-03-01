@@ -1,10 +1,9 @@
 import test from 'ava';
 
-import {increasing} from '@total-order/primitive';
-import {lexicographical} from '@total-order/lex';
-
-import {sorted} from '@iterable-iterator/sorted';
 import {KeyError} from '@failure-abstraction/error';
+import {sorted} from '@iterable-iterator/sorted';
+import {lexicographical} from '@total-order/lex';
+import {increasing} from '@total-order/primitive';
 
 import {dict} from '#module';
 
