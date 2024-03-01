@@ -11,7 +11,7 @@ dict().getdefault('x', -2); // -2
 
 [![License](https://img.shields.io/github/license/collection-abstraction/dict.svg)](https://raw.githubusercontent.com/collection-abstraction/dict/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@collection-abstraction/dict.svg)](https://www.npmjs.org/package/@collection-abstraction/dict)
-[![Tests](https://img.shields.io/github/workflow/status/collection-abstraction/dict/ci:cover?event=push&label=tests)](https://github.com/collection-abstraction/dict/actions/workflows/ci:cover.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/workflow/status/collection-abstraction/dict/ci?event=push&label=tests)](https://github.com/collection-abstraction/dict/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/collection-abstraction/dict.svg)](https://github.com/collection-abstraction/dict/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/collection-abstraction/dict.svg)](https://github.com/collection-abstraction/dict/issues)
 [![Downloads](https://img.shields.io/npm/dm/@collection-abstraction/dict.svg)](https://www.npmjs.org/package/@collection-abstraction/dict)
