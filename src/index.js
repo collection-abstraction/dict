@@ -7,3 +7,5 @@ const dict = _dict(Dict);
 export {dict, Dict};
 export {default as _dict} from './_dict.js';
 export {default as _Dict} from './_Dict.js';
+
+export {KeyError} from '@failure-abstraction/error';

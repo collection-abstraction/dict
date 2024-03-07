@@ -1,9 +1,10 @@
 import test from 'ava';
 
-import {KeyError} from '@failure-abstraction/error';
 import {sorted} from '@iterable-iterator/sorted';
 import {lexicographical} from '@total-order/lex';
 import {increasing} from '@total-order/primitive';
+
+import {KeyError} from './_fixtures.js';
 
 import {dict} from '#module';
 
